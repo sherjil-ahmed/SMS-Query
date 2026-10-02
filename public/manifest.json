@@ -1,0 +1,48 @@
+{
+  "id": "/",
+  "name": "SMS Intelligence - Android Default SMS",
+  "short_name": "Messages",
+  "description": "Android Default SMS App with real-time SMS reception, NLP querying, local exports, and cloud backup.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#2563eb",
+  "categories": ["social", "communication", "utilities"],
+  "protocol_handlers": [
+    {
+      "protocol": "sms",
+      "url": "/?action=compose&to=%s"
+    },
+    {
+      "protocol": "smsto",
+      "url": "/?action=compose&to=%s"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

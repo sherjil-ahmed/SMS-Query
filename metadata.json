@@ -1,0 +1,6 @@
+{
+  "name": "SMS Query & Backup",
+  "description": "Android SMS management app to receive, query, and filter messages by sender, keywords, date ranges, and custom time windows with CSV/PDF/JSON export and real-time cloud sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
